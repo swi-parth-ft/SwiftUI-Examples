@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-
 struct ContentView: View {
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -29,6 +28,8 @@ struct ContentView: View {
                     }
                 }
             }
+        
+        
     }
 }
 
