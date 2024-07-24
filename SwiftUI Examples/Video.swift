@@ -7,6 +7,8 @@
 
 import SwiftUI
 import AVKit
+import PhotosUI
+
 struct Video: View {
     var body: some View {
         VideoPlayer(player: AVPlayer(url: URL(string: "https://embed-ssl.wistia.com/deliveries/cc8402e8c16cc8f36d3f63bd29eb82f99f4b5f88/accudvh5jy.mp4")!))
