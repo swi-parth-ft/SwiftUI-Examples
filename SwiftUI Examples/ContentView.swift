@@ -7,18 +7,28 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    @State pri
+    @State private var completionAmount = 0.0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Rectangle()
+            .trim(from: 0, to: completionAmount)
+            .stroke(Color.orange, lineWidth: 20)
+            .frame(width: 200, height: 200)
+            .rotationEffect(.degrees(-90))
+            .onReceive(timer) { _ in
+                withAnimation {
+                    if completionAmount == 1 {
+                        completionAmount = 0
+                    } else {
+                        completionAmount += 0.2
+                    }
+                }
+            }
     }
 }
 
