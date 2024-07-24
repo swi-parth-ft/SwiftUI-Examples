@@ -13,6 +13,7 @@
 		0779F0792C514915009D9987 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0779F0782C514915009D9987 /* Preview Assets.xcassets */; };
 		0779F0822C514D3C009D9987 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0812C514D3C009D9987 /* Video.swift */; };
 		0779F0842C514D7E009D9987 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0832C514D7E009D9987 /* Sprite.swift */; };
+		0779F0862C515962009D9987 /* ViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0852C515962009D9987 /* ViewAppearance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0779F0782C514915009D9987 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0779F0812C514D3C009D9987 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		0779F0832C514D7E009D9987 /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		0779F0852C515962009D9987 /* ViewAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppearance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				0779F0712C514914009D9987 /* SwiftUI_ExamplesApp.swift */,
 				0779F0732C514914009D9987 /* ContentView.swift */,
+				0779F0852C515962009D9987 /* ViewAppearance.swift */,
 				0779F0812C514D3C009D9987 /* Video.swift */,
 				0779F0832C514D7E009D9987 /* Sprite.swift */,
 				0779F0752C514915009D9987 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				0779F0742C514914009D9987 /* ContentView.swift in Sources */,
 				0779F0822C514D3C009D9987 /* Video.swift in Sources */,
+				0779F0862C515962009D9987 /* ViewAppearance.swift in Sources */,
 				0779F0842C514D7E009D9987 /* Sprite.swift in Sources */,
 				0779F0722C514914009D9987 /* SwiftUI_ExamplesApp.swift in Sources */,
 			);
