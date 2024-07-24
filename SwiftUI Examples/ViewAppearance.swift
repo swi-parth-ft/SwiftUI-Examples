@@ -21,7 +21,7 @@ struct ViewAppearance: View {
                         }
                 }
             }
-            .padding(20)
+            .frame(height: 200)
             
             Grid {
                 ForEach(0..<3) { i in
@@ -43,6 +43,18 @@ struct ViewAppearance: View {
                     rotationAmount = 360
                 }
             }
+            Spacer()
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    ForEach(0..<10) { i in
+                            Text("Item \(i)")
+                            .foregroundStyle(.white)
+                            .containerRelativeFrame(.horizontal, count: 5, span: 2, spacing: 10)
+                            .background(.blue)
+                    }
+                }
+            }
+            Spacer()
         }
     }
     
