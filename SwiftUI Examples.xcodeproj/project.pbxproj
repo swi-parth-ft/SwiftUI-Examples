@@ -20,6 +20,7 @@
 		0779F0922C529951009D9987 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0912C529951009D9987 /* Scroll.swift */; };
 		077A07052C52A252000694D1 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07042C52A252000694D1 /* Buttons.swift */; };
 		077A07072C52A34E000694D1 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07062C52A34E000694D1 /* Pickers.swift */; };
+		077A07092C52A4D4000694D1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07082C52A4D4000694D1 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0779F0912C529951009D9987 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		077A07042C52A252000694D1 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		077A07062C52A34E000694D1 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		077A07082C52A4D4000694D1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0779F0912C529951009D9987 /* Scroll.swift */,
 				077A07042C52A252000694D1 /* Buttons.swift */,
 				077A07062C52A34E000694D1 /* Pickers.swift */,
+				077A07082C52A4D4000694D1 /* Colors.swift */,
 				0779F0872C515D1A009D9987 /* Geometry.swift */,
 				0779F0892C529283009D9987 /* Gestures.swift */,
 				0779F08B2C5294B7009D9987 /* TableView.swift */,
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0779F0742C514914009D9987 /* ContentView.swift in Sources */,
+				077A07092C52A4D4000694D1 /* Colors.swift in Sources */,
 				0779F0882C515D1A009D9987 /* Geometry.swift in Sources */,
 				0779F0822C514D3C009D9987 /* Video.swift in Sources */,
 				0779F0862C515962009D9987 /* ViewAppearance.swift in Sources */,
