@@ -11,6 +11,11 @@ struct Pickers: View {
     
     @State private var birthDate = Date.now
     
+    let dateFormatter: DateFormatter = {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .long
+            return formatter
+        }()
     
     var body: some View {
         VStack {
@@ -18,7 +23,11 @@ struct Pickers: View {
                 Text("Select a date")
             }
             
-            Text("Date is \(birthDate.formatted(date: .long, time: .omitted))")
+            DatePicker("Enter your birthday", selection: $birthDate)
+                .datePickerStyle(GraphicalDatePickerStyle())
+                .frame(maxHeight: 400)
+            
+            Text("Date is \(birthDate, formatter: dateFormatter)")
         }
     }
 }
