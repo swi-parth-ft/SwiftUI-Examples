@@ -10,12 +10,13 @@ import SwiftUI
 struct Scroll: View {
     @State private var items = 100
     @State private var position = ScrollPosition(edge: .top)
+    @State private var backgroundColor = Color.red
     var body: some View {
         VStack {
             ScrollView {
                 ForEach(0..<100) { i in
                     RoundedRectangle(cornerRadius: 22)
-                        .fill(.orange)
+                        .fill(backgroundColor)
                         .frame(height: 80)
                         .scrollTransition(.animated.threshold(.visible(0.9))) { content, phase in
                             content
@@ -25,6 +26,13 @@ struct Scroll: View {
                                 .hueRotation(.degrees(45 * phase.value))
                         }
                         .padding(.horizontal)
+                }
+            }
+            .onScrollPhaseChange { oldPhase, newPhase in
+                if newPhase == .interacting {
+                    backgroundColor = .orange
+                } else {
+                    backgroundColor = .blue
                 }
             }
             
