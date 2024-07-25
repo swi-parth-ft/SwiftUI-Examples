@@ -17,6 +17,7 @@
 		0779F0882C515D1A009D9987 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0872C515D1A009D9987 /* Geometry.swift */; };
 		0779F08A2C529283009D9987 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0892C529283009D9987 /* Gestures.swift */; };
 		0779F08C2C5294B7009D9987 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F08B2C5294B7009D9987 /* TableView.swift */; };
+		0779F0922C529951009D9987 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779F0912C529951009D9987 /* Scroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0779F0872C515D1A009D9987 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 		0779F0892C529283009D9987 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 		0779F08B2C5294B7009D9987 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		0779F0912C529951009D9987 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0779F0712C514914009D9987 /* SwiftUI_ExamplesApp.swift */,
 				0779F0732C514914009D9987 /* ContentView.swift */,
 				0779F0852C515962009D9987 /* ViewAppearance.swift */,
+				0779F0912C529951009D9987 /* Scroll.swift */,
 				0779F0872C515D1A009D9987 /* Geometry.swift */,
 				0779F0892C529283009D9987 /* Gestures.swift */,
 				0779F08B2C5294B7009D9987 /* TableView.swift */,
@@ -163,6 +166,7 @@
 				0779F08C2C5294B7009D9987 /* TableView.swift in Sources */,
 				0779F08A2C529283009D9987 /* Gestures.swift in Sources */,
 				0779F0722C514914009D9987 /* SwiftUI_ExamplesApp.swift in Sources */,
+				0779F0922C529951009D9987 /* Scroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
