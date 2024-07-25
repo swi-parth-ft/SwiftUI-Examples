@@ -21,6 +21,7 @@
 		077A07052C52A252000694D1 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07042C52A252000694D1 /* Buttons.swift */; };
 		077A07072C52A34E000694D1 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07062C52A34E000694D1 /* Pickers.swift */; };
 		077A07092C52A4D4000694D1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A07082C52A4D4000694D1 /* Colors.swift */; };
+		077A070B2C52A54B000694D1 /* Progresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A070A2C52A54B000694D1 /* Progresses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		077A07042C52A252000694D1 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		077A07062C52A34E000694D1 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		077A07082C52A4D4000694D1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		077A070A2C52A54B000694D1 /* Progresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progresses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				077A07042C52A252000694D1 /* Buttons.swift */,
 				077A07062C52A34E000694D1 /* Pickers.swift */,
 				077A07082C52A4D4000694D1 /* Colors.swift */,
+				077A070A2C52A54B000694D1 /* Progresses.swift */,
 				0779F0872C515D1A009D9987 /* Geometry.swift */,
 				0779F0892C529283009D9987 /* Gestures.swift */,
 				0779F08B2C5294B7009D9987 /* TableView.swift */,
@@ -176,6 +179,7 @@
 				077A07052C52A252000694D1 /* Buttons.swift in Sources */,
 				0779F08C2C5294B7009D9987 /* TableView.swift in Sources */,
 				0779F08A2C529283009D9987 /* Gestures.swift in Sources */,
+				077A070B2C52A54B000694D1 /* Progresses.swift in Sources */,
 				0779F0722C514914009D9987 /* SwiftUI_ExamplesApp.swift in Sources */,
 				0779F0922C529951009D9987 /* Scroll.swift in Sources */,
 				077A07072C52A34E000694D1 /* Pickers.swift in Sources */,
